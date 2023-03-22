@@ -10,10 +10,9 @@ let Life = new Movie("Life", "Comedy", "R", "2002");
 let featureFilms = new MovieList('featureFilms');
 featureFilms.intakeMovie(Gladiator);
 featureFilms.intakeMovie(Life);
+featureFilms.intakeMovie(IT);
 
-// MovieList.intakeMovielist(featureFilms);
-// staffPicks.addMovie(ColorPurple);
-// staffPicks.addMovie(Bible);
+featureFilms.pushOutMovie(IT);
 
 console.log(featureFilms);
 
