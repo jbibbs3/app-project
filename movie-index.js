@@ -22,6 +22,10 @@ featureFilms.intakeMovie(Rocky4);
 
 featureFilms.pushOutMovie(IT);
 
+featureFilms.intakeMovie(Juice);
+featureFilms.intakeMovie(Boomerang);
+featureFilms.intakeMovie(Rocky4);
+
 console.log(featureFilms);
 
 
